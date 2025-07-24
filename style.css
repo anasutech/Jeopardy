@@ -1,0 +1,136 @@
+/*
+  You don't need to touch this file to complete the assignment!
+  Unless you want to add styles and make it look more beautiful.
+*/
+
+/*
+  Some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+.disabled
+{
+  display: none;
+}
+
+.viewed
+{
+  text-decoration: line-through;
+}
+body{
+  
+    background-color: #54585d;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+ 
+
+}
+h1{
+  font-size: 3em;
+    color: floralwhite;
+    text-shadow: 2px 1px black;
+    font-family: cursive;
+}
+#play{
+  background-color:  #28a200;
+  padding: 9px;
+  color: white;
+  outline: none;
+  border: 1px black solid;
+   width: 150px;
+   cursor: pointer;
+}
+#play:hover {
+  background-color: chocolate;
+  color: white;
+}
+.game{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: burlywood;
+
+}
+section{
+    width: 85%;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+table td {
+	padding: 15px;
+}
+th {
+	background-color: #54585d;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 16px;
+	border: 1px solid #54585d;
+  padding: 10px;
+}
+table tbody td {
+	color: #636363;
+	border: 1px solid #dddfe1;
+  overflow: hidden;
+  padding: 0;
+}
+ table tbody tr {
+	background-color: #f9fafb;
+}
+/*
+table tbody tr:nth-child(odd) {
+	background-color: #ffffff;
+} */
+.clue{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ padding: 12px;
+ border-bottom: 1px solid #dddfe1;
+ 
+ 
+}
+#active-clue{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 19px;
+    background-color: #fff;
+    border: 1px solid #01070e;
+    color: #1e1e1e;
+    color: #333;
+    padding: 20px;
+    visibility: hidden;
+    height: 18px;
+}
+.message-bubble {
+      display: none;
+      position: absolute;
+      margin-top: 20px;
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      font-size: 14px;
+      color: #333;
+      top: 109px;
+      right: 285px;
+    }
+    i{
+      font-size: 62px;
+    }
